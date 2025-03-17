@@ -1,0 +1,3382 @@
+{
+    "model_10": {
+        "fold_0": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 29.71473261434585
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 7.697393404319882
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 8.620771011337638
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 7.99971183296293
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 8.63657671585679
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.082302720285952
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 8.6459331959486
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 8.21267584618181
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 8.758705884218216
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 7.7463584542274475
+                }
+            }
+        },
+        "fold_1": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 8.569955507293344
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 7.93971751909703
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 8.786507577635348
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 7.872023147530854
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 8.68360860273242
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 7.994078619405627
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 8.83405439183116
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 7.9174079690128565
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 8.792797057889402
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 7.834025407209992
+                }
+            }
+        },
+        "fold_2": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 8.772455640137196
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 7.84214651491493
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 8.841232772916555
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 7.915225751698017
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 8.637777799740434
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.222092516720295
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 8.6779182869941
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 8.023099924437702
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 8.61688144132495
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 8.068893786519766
+                }
+            }
+        }
+    },
+    "model_14": {
+        "fold_0": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 10.871260384097695
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 8.54827460180968
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 10.923450561240315
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 8.625561034306884
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 10.956576272845268
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.254131983965635
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 10.610817205160856
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 8.145499375648797
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 10.476743671111763
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 8.021759048104286
+                }
+            }
+        },
+        "fold_1": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 11.037410330027342
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 8.540731164626777
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 10.89227634947747
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 8.571849058382213
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 10.643958770669997
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.152627002447844
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 10.603273037821054
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 8.26116849295795
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 10.457881972193718
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 7.889580582268536
+                }
+            }
+        },
+        "fold_2": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 10.759699274785817
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 8.540729559026659
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 10.805445300415158
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 8.457815744914114
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 10.732637904584408
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.305620376951993
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 10.719469242729247
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 8.048499467782676
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 10.42923707421869
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 7.898633793927729
+                }
+            }
+        }
+    },
+    "model_18": {
+        "fold_0": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 14.248996721580625
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 8.730481105856597
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 13.160214899107814
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 8.15772852115333
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 13.174227858893573
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.163956802338362
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 13.147659867070615
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 8.204713902436197
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 13.149082263931632
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 8.12724148761481
+                }
+            }
+        },
+        "fold_1": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 13.160446951165795
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 8.215095712803304
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 13.15413089003414
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 8.169786295853555
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 13.16004248522222
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.178183309733868
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 13.172819960862398
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 8.182371893897653
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 13.158208725042641
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 8.125626601278782
+                }
+            }
+        },
+        "fold_2": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 13.17763988673687
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 8.187185370363295
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 13.14587334357202
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 8.164273148402572
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 13.189533494412899
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.169046554714441
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 13.169231987558305
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 8.08607469778508
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 13.173497901298106
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 8.123717057518661
+                }
+            }
+        }
+    },
+    "model_22": {
+        "fold_0": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 21.197120153345168
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 9.300702333450317
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 20.755767869763076
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 8.803069760091603
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 20.79289030097425
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.791856023482978
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 20.76786875165999
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 8.783424593508244
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 20.775469068437815
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 8.812884552404284
+                }
+            }
+        },
+        "fold_1": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 20.737570540979505
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 8.752434971742332
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 20.724218850955367
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 8.780314434319735
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 20.776080482639372
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.786571628414094
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 20.722495692782104
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 8.806513138115406
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 20.766368554905057
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 8.809686291962862
+                }
+            }
+        },
+        "fold_2": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 20.742493202909827
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 8.794175676070154
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 20.75548743084073
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 8.789109007455409
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 20.76424249447882
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.808070654980838
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 20.751470525749028
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 8.8103555906564
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 20.75714041106403
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 8.829968796111643
+                }
+            }
+        }
+    },
+    "model_2": {
+        "fold_0": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 6.721953437663615
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 7.618773493915796
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 5.548724548891187
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 7.165454535745084
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 5.5320520382374525
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 7.122509867884219
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 5.557523149996996
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 7.1161246402189136
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 5.550902270711958
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 7.119274107739329
+                }
+            }
+        },
+        "fold_1": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 5.584892846643925
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 7.142184002324939
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 5.526157028973103
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 7.125109794549644
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 5.549441580660641
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 7.172678339295089
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 5.536091910675168
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 7.106396720744669
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 5.553230430930853
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 7.139103343710303
+                }
+            }
+        },
+        "fold_2": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 5.532464220188558
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 7.123986676335335
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 5.5501716723665595
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 7.149009959772229
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 5.5334380166605115
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 7.112087759189308
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 5.578008787706494
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 7.120188436470926
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 5.518114653415978
+                },
+                "cueq": {
+                    "num_channel": 32,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 7.133114489726722
+                }
+            }
+        }
+    },
+    "model_30": {
+        "fold_0": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 8.912947646342218
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 8.207833078689873
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 7.869398260489106
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 7.744581650011241
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 7.778466901741922
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.171855635009706
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 7.701329495757818
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 8.21426159888506
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 7.761839659884572
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 8.226760908961296
+                }
+            }
+        },
+        "fold_1": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 7.845047705806792
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 7.780974568799138
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 7.75414502620697
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 8.198979927226901
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 7.887856843881309
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 7.727353347465396
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 7.919972563162446
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 7.793035853654146
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 7.891364208422601
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 7.74819297157228
+                }
+            }
+        },
+        "fold_2": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 7.905423238873482
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 7.887166935950518
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 7.889489619992673
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 7.734425931237638
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 7.773949321359396
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.182373338378966
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 7.851738592609763
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 7.755592121742666
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 7.7730235029011965
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 8.20864809397608
+                }
+            }
+        }
+    },
+    "model_34": {
+        "fold_0": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 12.133369120769203
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 8.906118049286306
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 11.520122643560171
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 8.45451926253736
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 11.50807735323906
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.410270941443741
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 11.485384891740978
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 8.419147543609142
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 11.478119396604598
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 8.379009824246168
+                }
+            }
+        },
+        "fold_1": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 11.72571302484721
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 8.409144666045904
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 11.577241918072104
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 8.414661682210863
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 11.495394108816981
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.391875456087291
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 11.464931298978627
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 8.410830977372825
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 11.50418481323868
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 8.411815846338868
+                }
+            }
+        },
+        "fold_2": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 11.853636292740703
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 8.386928151361644
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 11.498500719666481
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 8.422585043124855
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 11.475270608440042
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.374749669805169
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 11.499824341386557
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 8.421194317750633
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 11.474041317589581
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 0,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 8.39671905245632
+                }
+            }
+        }
+    },
+    "model_42": {
+        "fold_0": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 18.16596614010632
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 8.933351007290184
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 18.077009616419673
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 8.85779708251357
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 18.095596104860306
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.865720635280013
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 18.087299527600408
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 8.898015704005957
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 18.064718370325863
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 8.895241283811629
+                }
+            }
+        },
+        "fold_1": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 18.086888233199716
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 8.827893774025142
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 18.090474859811366
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 8.90907193440944
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 18.079674086533487
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.847482332028449
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 18.086567925289273
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 8.871081002987921
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 18.05729725304991
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 8.874916771426797
+                }
+            }
+        },
+        "fold_2": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 18.091597800143063
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 8.855798720382154
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 18.103019644506276
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 8.832022307440639
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 18.08386746700853
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 8.914774859324098
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 18.055265738628805
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 8.846942844800651
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 18.100764989852905
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 8.87671716324985
+                }
+            }
+        }
+    },
+    "model_46": {
+        "fold_0": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 30.77537556272
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 11.453622439876199
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 30.20556777715683
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 11.05469385534525
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 30.174467008560896
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 11.031032729893923
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 30.20330168120563
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 11.05519964452833
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 30.17479970306158
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 11.017060824669898
+                }
+            }
+        },
+        "fold_1": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 30.1928352387622
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 11.059458834119141
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 30.161396061070263
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 10.99914144910872
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 30.230032387189567
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 11.071628398261964
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 30.190065803937614
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 11.040837948210537
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 30.192434780299664
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 11.062387934885919
+                }
+            }
+        },
+        "fold_2": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 30.180190216749907
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 11.023519683629274
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 30.18893976509571
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 11.00476543046534
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 30.183365845121443
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 11.024669223465025
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 30.225052905268967
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 11.06883894931525
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 30.18149918690324
+                },
+                "cueq": {
+                    "num_channel": 128,
+                    "max_L": 1,
+                    "r_cut": 6.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 11.032448614947498
+                }
+            }
+        }
+    },
+    "model_6": {
+        "fold_0": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 6.576859381981194
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 7.641502280719578
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 5.893573588691652
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 7.284809723496437
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 5.913551341742277
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 7.307908335700631
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 5.904723607003689
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 7.2486581820994616
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 5.91070674918592
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 0,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 7.2723035188391805
+                }
+            }
+        },
+        "fold_1": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 5.9183853613212705
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 7.250540181994438
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 5.909661269746721
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 7.309462661854923
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 5.89156384114176
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 7.266084210947156
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 5.912056136876345
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 7.267111158929765
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 5.9068048456683755
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 1,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 7.2422500075772405
+                }
+            }
+        },
+        "fold_2": {
+            "rep_0": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": false,
+                    "benchmark_time": 5.912345330230892
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 0,
+                    "use_cueq": true,
+                    "benchmark_time": 7.273984777741134
+                }
+            },
+            "rep_1": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": false,
+                    "benchmark_time": 5.894879902713001
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 1,
+                    "use_cueq": true,
+                    "benchmark_time": 7.286415877752006
+                }
+            },
+            "rep_2": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": false,
+                    "benchmark_time": 5.913832910358906
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 2,
+                    "use_cueq": true,
+                    "benchmark_time": 7.284047125838697
+                }
+            },
+            "rep_3": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": false,
+                    "benchmark_time": 5.89399747364223
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 3,
+                    "use_cueq": true,
+                    "benchmark_time": 7.243387592025101
+                }
+            },
+            "rep_4": {
+                "no_cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": false,
+                    "benchmark_time": 5.917733670212328
+                },
+                "cueq": {
+                    "num_channel": 64,
+                    "max_L": 0,
+                    "r_cut": 5.0,
+                    "seed": null,
+                    "fold": 2,
+                    "rep": 4,
+                    "use_cueq": true,
+                    "benchmark_time": 7.274304049089551
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,168 @@
+
+Inactive Modules:
+  1) darshan-runtime
+
+The following have been reloaded with a version change:
+  1) cray-mpich/8.1.30 => cray-mpich/8.1.31
+
+
+Activating Modules:
+  1) darshan-runtime/3.4.4-mpi
+
+The following have been reloaded with a version change:
+  1) cray-mpich/8.1.31 => cray-mpich/8.1.30
+
+LAMMPS (29 Aug 2024)
+KOKKOS mode with Kokkos version 4.3.1 is enabled (src/KOKKOS/kokkos.cpp:72)
+  will use up to 8 GPU(s) per node
+  using 1 OpenMP thread(s) per MPI task
+Reading data file ...
+  orthogonal box = (0 0 0) to (151.5 151.5 151.5)
+  2 by 2 by 2 MPI processor grid
+  reading atoms ...
+  250000 atoms
+  read_data CPU = 1.098 seconds
+Allegro is using input precision f and output precision f
+Allegro: Loading model from ./potentials/r5_l2_nl1_ntf32_zbl_gen_6.pth
+Allegro: Freezing TorchScript model...
+Type mapping:
+Allegro type | Allegro name | LAMMPS type | LAMMPS name
+0 | Ti | 1 | Ti
+1 | V | 2 | V
+2 | Cr | 3 | Cr
+3 | Zr | 4 | Zr
+4 | W | 5 | W
+ti=0 tj=0 cut=5.00
+ti=0 tj=1 cut=5.00
+ti=0 tj=2 cut=5.00
+ti=0 tj=3 cut=5.00
+ti=0 tj=4 cut=5.00
+ti=1 tj=0 cut=5.00
+ti=1 tj=1 cut=5.00
+ti=1 tj=2 cut=5.00
+ti=1 tj=3 cut=5.00
+ti=1 tj=4 cut=5.00
+ti=2 tj=0 cut=5.00
+ti=2 tj=1 cut=5.00
+ti=2 tj=2 cut=5.00
+ti=2 tj=3 cut=5.00
+ti=2 tj=4 cut=5.00
+ti=3 tj=0 cut=5.00
+ti=3 tj=1 cut=5.00
+ti=3 tj=2 cut=5.00
+ti=3 tj=3 cut=5.00
+ti=3 tj=4 cut=5.00
+ti=4 tj=0 cut=5.00
+ti=4 tj=1 cut=5.00
+ti=4 tj=2 cut=5.00
+ti=4 tj=3 cut=5.00
+ti=4 tj=4 cut=5.00
+Balancing ...
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 7
+  ghost atom cutoff = 7
+  binsize = 7, bins = 22 22 22
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair allegro3232/kk, perpetual
+      attributes: full, newton on, kokkos_device
+      pair build: full/bin/kk/device
+      stencil: full/bin/3d
+      bin: kk/device
+ rebalancing time: 0.038 seconds
+  iteration count = 1
+  initial/final maximal load/proc = 31250 31250
+  initial/final imbalance factor  = 1 1
+  x cuts: 0 0.5 1
+  y cuts: 0 0.5 1
+  z cuts: 0 0.5 1
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Your simulation uses code contributions which should be cited:
+- Type Label Framework: https://doi.org/10.1021/acs.jpcb.3c08419
+The log file lists these citations in BibTeX format.
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 0
+  Time step     : 0.001
+Per MPI rank memory allocation (min/avg/max) = 9.015 | 9.015 | 9.015 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   300           -2345333.6      0             -2335639.1     -222165.73    
+Loop time of 0.000305047 on 8 procs for 0 steps with 250000 atoms
+
+54.5% CPU use with 8 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Output  | 0          | 0          | 0          |   0.0 |  0.00
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 0.000305   |            |       |100.00
+
+Nlocal:          31250 ave       31250 max       31250 min
+Histogram: 8 0 0 0 0 0 0 0 0 0
+Nghost:          20139 ave       20139 max       20139 min
+Histogram: 8 0 0 0 0 0 0 0 0 0
+Neighs:              0 ave           0 max           0 min
+Histogram: 8 0 0 0 0 0 0 0 0 0
+FullNghs:      3.5e+06 ave     3.5e+06 max     3.5e+06 min
+Histogram: 8 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 28000000
+Ave neighs/atom = 112
+Neighbor list builds = 0
+Dangerous builds = 0
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 0
+  Time step     : 0.001
+Per MPI rank memory allocation (min/avg/max) = 9.015 | 9.015 | 9.015 Mbytes
+   Step          Temp          PotEng         KinEng         TotEng         Press     
+         0   300           -2345333.6      9694.4721     -2335639.1     -222166.18    
+       100   385.99302     -2348114        12473.329     -2335640.7     -134910.6     
+       200   398.2219      -2348509.2      12868.503     -2335640.7     -146908.83    
+       300   397.12435     -2348473.7      12833.036     -2335640.6     -144796.5     
+       400   399.87311     -2348562.5      12921.862     -2335640.6     -147834.85    
+       500   399.72145     -2348557.6      12916.961     -2335640.6     -147184.77    
+       600   399.79697     -2348560        12919.402     -2335640.6     -147995.13    
+       700   399.54578     -2348551.9      12911.285     -2335640.6     -147671.96    
+       800   399.18998     -2348540.4      12899.787     -2335640.6     -147631.68    
+       900   399.4748      -2348549.6      12908.991     -2335640.6     -147661.44    
+      1000   397.49163     -2348485.5      12844.905     -2335640.6     -147635.6     
+Loop time of 989.554 on 8 procs for 1000 steps with 250000 atoms
+
+Performance: 0.087 ns/day, 274.876 hours/ns, 1.011 timesteps/s, 252.639 katom-step/s
+5.5% CPU use with 8 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 936.09     | 960.94     | 980.35     |  48.7 | 97.11
+Neigh   | 0.0048139  | 0.0052146  | 0.0061235  |   0.6 |  0.00
+Comm    | 9.056      | 28.478     | 53.339     | 282.9 |  2.88
+Output  | 0.0011095  | 0.0015908  | 0.0020911  |   0.9 |  0.00
+Modify  | 0.024458   | 0.025476   | 0.02662    |   0.4 |  0.00
+Other   |            | 0.1051     |            |       |  0.01
+
+Nlocal:          31250 ave       31573 max       31042 min
+Histogram: 2 1 2 1 0 0 0 0 0 2
+Nghost:        20141.6 ave       20350 max       19820 min
+Histogram: 2 0 0 0 0 0 1 2 1 2
+Neighs:              0 ave           0 max           0 min
+Histogram: 8 0 0 0 0 0 0 0 0 0
+FullNghs:  3.42763e+06 ave 3.46956e+06 max 3.40186e+06 min
+Histogram: 2 1 2 1 0 0 0 0 1 1
+
+Total # of neighbors = 27421064
+Ave neighs/atom = 109.68426
+Neighbor list builds = 6
+Dangerous builds = 0
+Total wall time: 0:16:37
