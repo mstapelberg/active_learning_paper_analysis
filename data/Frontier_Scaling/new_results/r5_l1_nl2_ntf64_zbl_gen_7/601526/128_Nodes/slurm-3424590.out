@@ -1,0 +1,184 @@
+
+Lmod is automatically replacing "cce/18.0.1" with "amd/6.2.4".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.6.0" with "PrgEnv-amd/8.6.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-libsci/24.11.0     2) cray-mpich/8.1.31     3) darshan-runtime/3.4.6-mpi
+
+Lmod Warning:
+================================================================================
+
+    Mixed compiler modules are being deprecated in a future release.
+    For more information run: module help gcc-native-mixed
+
+================================================================================
+
+
+While processing the following module(s):
+    Module fullname        Module Filename
+    ---------------        ---------------
+    gcc-native-mixed/14.2  /opt/cray/pe/lmod/modulefiles/mix_compilers/gcc-native-mixed/14.2.lua
+
+
+Inactive Modules:
+  1) darshan-runtime
+
+The following have been reloaded with a version change:
+  1) amd/6.2.4 => amd/6.3.1
+
+LAMMPS (29 Aug 2024)
+KOKKOS mode with Kokkos version 4.3.1 is enabled (src/KOKKOS/kokkos.cpp:72)
+  will use up to 8 GPU(s) per node
+  using 1 OpenMP thread(s) per MPI task
+Reading data file ...
+  orthogonal box = (0 0 0) to (203.01 203.01 203.01)
+  8 by 8 by 16 MPI processor grid
+  reading atoms ...
+  601526 atoms
+  read_data CPU = 3.706 seconds
+NequIP/Allegro is using input precision d and output precision d
+NequIP/Allegro: Loading model from ../potentials/gen-7-2025-04-30/gen-7-50epoch-test_compiled.nequip.pt2
+Type mapping:
+NequIP/Allegro type | NequIP/Allegro name | LAMMPS type | LAMMPS name
+0 | Ti | 1 | Ti
+1 | V | 2 | V
+2 | Cr | 3 | Cr
+3 | Zr | 4 | Zr
+4 | W | 5 | W
+ti=0 tj=0 cut=5.00
+ti=0 tj=1 cut=5.00
+ti=0 tj=2 cut=5.00
+ti=0 tj=3 cut=5.00
+ti=0 tj=4 cut=5.00
+ti=1 tj=0 cut=5.00
+ti=1 tj=1 cut=5.00
+ti=1 tj=2 cut=5.00
+ti=1 tj=3 cut=5.00
+ti=1 tj=4 cut=5.00
+ti=2 tj=0 cut=5.00
+ti=2 tj=1 cut=5.00
+ti=2 tj=2 cut=5.00
+ti=2 tj=3 cut=5.00
+ti=2 tj=4 cut=5.00
+ti=3 tj=0 cut=5.00
+ti=3 tj=1 cut=5.00
+ti=3 tj=2 cut=5.00
+ti=3 tj=3 cut=5.00
+ti=3 tj=4 cut=5.00
+ti=4 tj=0 cut=5.00
+ti=4 tj=1 cut=5.00
+ti=4 tj=2 cut=5.00
+ti=4 tj=3 cut=5.00
+ti=4 tj=4 cut=5.00
+Balancing ...
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 7
+  ghost atom cutoff = 7
+  binsize = 7, bins = 30 30 30
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair allegro/kk, perpetual
+      attributes: full, newton on, kokkos_device
+      pair build: full/bin/kk/device
+      stencil: full/bin/3d
+      bin: kk/device
+ rebalancing time: 0.062 seconds
+  iteration count = 20
+  initial/final maximal load/proc = 661 661
+  initial/final imbalance factor  = 1.1252448 1.1252448
+  x cuts: 0 0.12109375 0.24609375 0.37109375 0.5 0.62109375 0.74609375 0.87109375 1
+  y cuts: 0 0.12109375 0.24609375 0.37109375 0.5 0.62109375 0.74609375 0.87109375 1
+  z cuts: 0 0.059753418 0.1194458 0.18658447 0.24627686 0.30596924 0.37310791 0.43280029 0.5 0.55975342 0.6194458 0.68658447 0.74627686 0.80596924 0.87310791 0.93280029 1
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Your simulation uses code contributions which should be cited:
+- Type Label Framework: https://doi.org/10.1021/acs.jpcb.3c08419
+The log file lists these citations in BibTeX format.
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 0
+  Time step     : 0.001
+Per MPI rank memory allocation (min/avg/max) = 3.369 | 3.369 | 3.37 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   300           -5625674.8      0             -5602348.8     -4958.3288    
+Loop time of 0.000402876 on 1024 procs for 0 steps with 601526 atoms
+
+109.8% CPU use with 1024 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Output  | 0          | 0          | 0          |   0.0 |  0.00
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 0.0004029  |            |       |100.00
+
+Nlocal:        587.428 ave         661 max         448 min
+Histogram: 8 48 54 42 144 0 248 192 0 288
+Nghost:        2292.75 ave        2466 max        2004 min
+Histogram: 8 24 34 94 128 168 160 144 136 128
+Neighs:              0 ave           0 max           0 min
+Histogram: 1024 0 0 0 0 0 0 0 0 0
+FullNghs:      65791.9 ave       74032 max       50176 min
+Histogram: 8 48 54 42 144 0 248 192 0 288
+
+Total # of neighbors = 67370912
+Ave neighs/atom = 112
+Neighbor list builds = 0
+Dangerous builds = 0
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 0
+  Time step     : 0.001
+Per MPI rank memory allocation (min/avg/max) = 3.369 | 3.369 | 3.37 Mbytes
+   Step          Temp          PotEng         KinEng         TotEng         Press     
+         0   300           -5625674.8      23325.963     -5602348.8     -4958.3289    
+       100   259.91974     -5622557.8      20209.594     -5602348.2      37164.731    
+       200   277.59385     -5623932.3      21583.813     -5602348.5      50901.928    
+       300   288.62499     -5624790.1      22441.519     -5602348.6      54707.894    
+       400   299.13181     -5625607.1      23258.458     -5602348.7      58875.042    
+       500   309.25529     -5626394.4      24045.591     -5602348.8      62538.249    
+       600   317.97791     -5627072.7      24723.803     -5602348.9      65680.707    
+       700   325.02013     -5627620.3      25271.358     -5602349        68523.027    
+       800   332.02208     -5628164.9      25815.782     -5602349.1      70840.361    
+       900   337.37539     -5628581.1      26232.019     -5602349.1      72769.269    
+      1000   342.55976     -5628984.3      26635.12      -5602349.2      74604.943    
+Loop time of 13.5862 on 1024 procs for 1000 steps with 601526 atoms
+
+Performance: 6.359 ns/day, 3.774 hours/ns, 73.604 timesteps/s, 44.275 Matom-step/s
+58.4% CPU use with 1024 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 7.5869     | 9.7119     | 12.167     |  25.1 | 71.48
+Neigh   | 0.0026414  | 0.0030333  | 0.0036122  |   0.3 |  0.02
+Comm    | 0.88758    | 2.804      | 5.2892     |  49.2 | 20.64
+Output  | 0.0032158  | 0.01273    | 0.021862   |   3.1 |  0.09
+Modify  | 0.01885    | 0.020426   | 0.026463   |   0.7 |  0.15
+Other   |            | 1.034      |            |       |  7.61
+
+Nlocal:        587.428 ave         781 max         448 min
+Histogram: 25 81 156 232 211 162 91 42 20 4
+Nghost:        2340.24 ave        2576 max        2098 min
+Histogram: 8 31 81 147 226 239 153 90 38 11
+Neighs:              0 ave           0 max           0 min
+Histogram: 1024 0 0 0 0 0 0 0 0 0
+FullNghs:      60925.3 ave       85663 max       41478 min
+Histogram: 22 63 129 215 256 164 99 51 20 5
+
+Total # of neighbors = 62387486
+Ave neighs/atom = 103.71536
+Neighbor list builds = 6
+Dangerous builds = 0
+Total wall time: 0:00:29

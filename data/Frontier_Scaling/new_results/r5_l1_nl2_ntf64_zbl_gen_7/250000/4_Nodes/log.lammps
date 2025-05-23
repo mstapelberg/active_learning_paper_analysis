@@ -1,0 +1,161 @@
+units          metal
+atom_style     atomic
+boundary       p p p
+
+
+package kokkos newton on neigh half
+package kokkos comm device
+
+read_data      structure.data
+Reading data file ...
+  orthogonal box = (0 0 0) to (151.5 151.5 151.5)
+  2 by 4 by 4 MPI processor grid
+  reading atoms ...
+  250000 atoms
+  read_data CPU = 1.075 seconds
+
+# Potential setup
+mass 1 47.867  # Ti
+mass 2 50.942  # V
+mass 3 51.996  # Cr
+mass 4 91.224  # Zr
+mass 5 183.84  # W
+
+pair_style allegro
+#pair_coeff * * ./potentials/r5_l0_nl2_ntf128_zbl_gen_6.pth Ti V Cr Zr W
+#pair_coeff * * ./potentials/r5_l2_nl1_ntf32_zbl_gen_6.pth Ti V Cr Zr W
+#pair_coeff * * ./potentials/r6_l2_nl1_ntf32_zbl_gen_6.pth Ti V Cr Zr W
+pair_coeff * * ../potentials/gen-7-2025-04-30/gen-7-50epoch-test_compiled.nequip.pt2 Ti V Cr Zr W
+
+neighbor        2.0 bin
+neigh_modify    every 1 delay 0 check yes
+
+# Multi-GPU domain decomposition settings
+comm_style brick
+balance 1.0 shift xyz 10 1.1
+Balancing ...
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 7
+  ghost atom cutoff = 7
+  binsize = 7, bins = 22 22 22
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair allegro/kk, perpetual
+      attributes: full, newton on, kokkos_device
+      pair build: full/bin/kk/device
+      stencil: full/bin/3d
+      bin: kk/device
+ rebalancing time: 0.046 seconds
+  iteration count = 1
+  initial/final maximal load/proc = 7825 7825
+  initial/final imbalance factor  = 1.0016 1.0016
+  x cuts: 0 0.5 1
+  y cuts: 0 0.25 0.5 0.75 1
+  z cuts: 0 0.25 0.5 0.75 1
+
+velocity        all create 300 4928459 dist gaussian
+fix             1 all nve
+
+# GPU memory usage info
+#info all out gpu_memory_initial.txt
+run             0
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Your simulation uses code contributions which should be cited:
+
+- Type Label Framework: https://doi.org/10.1021/acs.jpcb.3c08419
+
+@Article{Gissinger24,
+ author = {Jacob R. Gissinger, Ilia Nikiforov, Yaser Afshar, Brendon Waters, Moon-ki Choi, Daniel S. Karls, Alexander Stukowski, Wonpil Im, Hendrik Heinz, Axel Kohlmeyer, and Ellad B. Tadmor},
+ title = {Type Label Framework for Bonded Force Fields in LAMMPS},
+ journal = {J. Phys. Chem. B},
+ year =    2024,
+ volume =  128,
+ number =  13,
+ pages =   {3282–-3297}
+}
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Per MPI rank memory allocation (min/avg/max) = 3.507 | 3.537 | 3.566 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   300           -2338108.6      0             -2328414.1     -5085.4897    
+Loop time of 0.000299362 on 32 procs for 0 steps with 250000 atoms
+
+99.9% CPU use with 32 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Output  | 0          | 0          | 0          |   0.0 |  0.00
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 0.0002994  |            |       |100.00
+
+Nlocal:         7812.5 ave        7825 max        7800 min
+Histogram: 16 0 0 0 0 0 0 0 0 16
+Nghost:         9238.5 ave        9251 max        9226 min
+Histogram: 16 0 0 0 0 0 0 0 0 16
+Neighs:              0 ave           0 max           0 min
+Histogram: 32 0 0 0 0 0 0 0 0 0
+FullNghs:       875000 ave      876400 max      873600 min
+Histogram: 16 0 0 0 0 0 0 0 0 16
+
+Total # of neighbors = 28000000
+Ave neighs/atom = 112
+Neighbor list builds = 0
+Dangerous builds = 0
+
+thermo_style    custom step temp pe ke etotal press
+thermo          100
+
+timestep        0.001
+run             1000
+Per MPI rank memory allocation (min/avg/max) = 3.507 | 3.537 | 3.566 Mbytes
+   Step          Temp          PotEng         KinEng         TotEng         Press     
+         0   300           -2338108.6      9694.4721     -2328414.1     -5085.4894    
+       100   260.3718      -2336827.8      8413.8904     -2328413.9      37243.425    
+       200   276.35912     -2337344.5      8930.5192     -2328414        50631.002    
+       300   288.59377     -2337739.9      9325.8809     -2328414        54300.472    
+       400   299.36427     -2338088        9673.9284     -2328414.1      58728.643    
+       500   309.59163     -2338418.6      10004.425     -2328414.1      62666.823    
+       600   318.28482     -2338699.5      10285.344     -2328414.2      65504.459    
+       700   325.3676      -2338928.4      10514.224     -2328414.2      68196.699    
+       800   332.91066     -2339172.2      10757.977     -2328414.2      70290.142    
+       900   338.93461     -2339366.9      10952.64      -2328414.3      72326.142    
+      1000   344.49477     -2339546.6      11132.317     -2328414.3      74333.127    
+Loop time of 112.161 on 32 procs for 1000 steps with 250000 atoms
+
+Performance: 0.770 ns/day, 31.156 hours/ns, 8.916 timesteps/s, 2.229 Matom-step/s
+9.6% CPU use with 32 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 103.82     | 106.66     | 110.22     |  17.4 | 95.10
+Neigh   | 0.0027179  | 0.0031179  | 0.0037656  |   0.5 |  0.00
+Comm    | 1.742      | 5.2497     | 7.9731     |  78.3 |  4.68
+Output  | 0.0017779  | 0.0027431  | 0.0040909  |   1.5 |  0.00
+Modify  | 0.02067    | 0.022186   | 0.023972   |   0.6 |  0.02
+Other   |            | 0.2207     |            |       |  0.20
+
+Nlocal:         7812.5 ave        8103 max        7554 min
+Histogram: 2 5 4 2 2 6 7 0 1 3
+Nghost:        9349.34 ave        9580 max        9078 min
+Histogram: 2 2 0 3 5 8 3 5 2 2
+Neighs:              0 ave           0 max           0 min
+Histogram: 32 0 0 0 0 0 0 0 0 0
+FullNghs:       810851 ave      851790 max      776127 min
+Histogram: 5 3 3 2 1 9 5 0 1 3
+
+Total # of neighbors = 25947240
+Ave neighs/atom = 103.78896
+Neighbor list builds = 5
+Dangerous builds = 0
+
+#info all out gpu_memory_final.txt
+Total wall time: 0:02:04
