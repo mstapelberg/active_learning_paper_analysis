@@ -1,0 +1,37 @@
+{
+  "num_atoms_ml": 124,
+  "num_atoms_vasp": 124,
+  "atoms_match": true,
+  "composition_ml": {
+    "Cr": 5,
+    "Ti": 5,
+    "V": 114
+  },
+  "composition_vasp": {
+    "Cr": 5,
+    "Ti": 5,
+    "V": 114
+  },
+  "composition_match": true,
+  "ordering_match": true,
+  "ordering_mismatches": [],
+  "cell_differences": [
+    0.007767957019254368,
+    -0.005886706733832625,
+    0.004634361230158035,
+    -0.024321014747016534,
+    -0.03335560682836558,
+    -0.016447616484242644
+  ],
+  "raw_disp_max": 12.99718052745828,
+  "raw_disp_mean": 1.4896824651493292,
+  "mic_disp_max": 3.17628009318761,
+  "mic_disp_mean": 0.06886030839279583,
+  "large_disp_count": 1,
+  "large_disp_atoms": [
+    [
+      16,
+      3.17628009318761
+    ]
+  ]
+}
