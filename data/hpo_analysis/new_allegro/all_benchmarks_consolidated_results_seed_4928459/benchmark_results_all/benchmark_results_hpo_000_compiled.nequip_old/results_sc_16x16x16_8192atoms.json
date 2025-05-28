@@ -1,0 +1,18 @@
+{
+    "potential_file": "/home/myless/Packages/Triton-Allegro-Package/throughput-benchmark/compiled_models/hpo_000_compiled.nequip.pt2",
+    "supercell": "16x16x16",
+    "num_atoms": 8192,
+    "timestep_fs": 0.001,
+    "n_warmup_steps": 100,
+    "n_steps": 1000,
+    "temperature_k": 300.0,
+    "random_seed": 4928459,
+    "wall_time_s": 20.651068687438965,
+    "loop_time_s": null,
+    "timesteps_per_s_log": 53.637,
+    "katom_steps_per_s_log": 439.395,
+    "time_per_step_ms_log": null,
+    "timesteps_per_s_calculated": null,
+    "status": "SUCCESS (log parsed)",
+    "log_file": "lammps_benchmark_logs/log_sc_16x16x16_8192atoms.txt"
+}
