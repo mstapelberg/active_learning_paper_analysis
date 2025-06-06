@@ -2,12 +2,13 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from adjustText import adjust_text
 
 # ——— CONFIGURATION —————————————————————————————————————————————
 CSV_PATH = "model_summary_analysis.csv"
 
 # Column names in your CSV
-ERR_COL     = "mean_Force_Error"
+ERR_COL     = "mean_force_rmse"
 THRPT_COL   = "mean_katom_steps_per_s_log"
 TIMESTEP_COL = "mean_timesteps_per_s_log"
 LABEL_COL   = "hpo_id"
@@ -43,7 +44,8 @@ df_low = df[df[ERR_COL] < mean_err].reset_index(drop=True)
 
 # ——— 5. Compute 2-D Pareto front (error ↓ vs timesteps/s ↑) —————————
 errs  = df_low[ERR_COL].values
-times = df_low[TIMESTEP_COL].values
+#times = df_low[TIMESTEP_COL].values
+times = df_low[THRPT_COL].values
 
 is_pareto = np.ones(len(df_low), dtype=bool)
 for i, (e_i, t_i) in enumerate(zip(errs, times)):
@@ -56,30 +58,32 @@ df_pareto = df_low[is_pareto].sort_values(ERR_COL).reset_index(drop=True)
 
 # ——— 6. Plot Pareto front & annotate —————————————————————————————
 plt.figure(figsize=(8,6))
-plt.scatter(df_low[ERR_COL], df_low[TIMESTEP_COL],
+plt.scatter(df_low[ERR_COL], df_low[THRPT_COL],
             s=30, alpha=0.4, label="Low-error models")
 
-plt.scatter(df_pareto[ERR_COL], df_pareto[TIMESTEP_COL],
+plt.scatter(df_pareto[ERR_COL], df_pareto[THRPT_COL],
             s=100, edgecolor="k", facecolor="none", linewidth=1.5,
             label="Pareto frontier")
 
 # annotate each Pareto point with its HPO ID
+texts = []
 for _, row in df_pareto.iterrows():
-    plt.annotate(
+    texts.append(plt.text(
+        row[ERR_COL],
+        row[THRPT_COL],
         row[LABEL_COL],
-        xy=(row[ERR_COL], row[TIMESTEP_COL]),
-        xytext=(5, -3),
-        textcoords="offset points",
         fontsize=8,
         color="k"
-    )
+    ))
+
+adjust_text(texts, arrowprops=dict(arrowstyle='-', color='black'))
 
 plt.xlabel("Force RMSE (Å)")
-plt.ylabel("Timesteps per second")
-plt.title("2D Pareto: Error ↓ vs Timesteps/s ↑ (Error < Mean)")
+plt.ylabel("k-atom-steps/s")
+plt.title("2D Pareto: Error ↓ vs k-atom-steps/s ↑ (Error < Mean)")
 plt.legend(loc="best")
 plt.grid(True, alpha=0.3)
 plt.tight_layout()
 
 # Show or save
-plt.show()
+plt.savefig("analysis_outputs/2d_pareto_analysis.png")
